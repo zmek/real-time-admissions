@@ -2,6 +2,8 @@
 
 Welcome to the repo for real-time prediction of admissions at UCLH. 
 
+## About the project
+
 The project has a number of elements 
 
 1. Extract and clean data 
@@ -11,6 +13,8 @@ The project has a number of elements
 5. Prepare figures for publication in an academic manuscript
 
 See the current version of the manuscript in pre-print form at: https://www.medrxiv.org/content/10.1101/2022.03.07.22271999v1 
+
+## About the repo
 
 This repo is organised into the following folders
 
@@ -26,6 +30,8 @@ Each folder is structured as follows (but note that data-raw and data-output are
 * data-output - contains outpout from ML models, feature lists (ignored by git so not visible outside the UCH environment)
 * model-output - contains results like predicted probability distributions and evalutaion results
 * media - output as charts
+
+## What to look at first
 
 For the reader interested in the machine learning aspects of this project, the most important files to look at are 
 * predict-admission/README.md - this will introduce you to the steps involved in the analysis and how we approached the ML

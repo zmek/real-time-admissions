@@ -1,0 +1,117 @@
+code,name,category
+CON124,Inpatient consult to Neuro Ophthalmology,neuro
+CON9,Inpatient consult to Neurology,neuro
+CON34,Inpatient consult to Dietetics (N&D) - Not TPN,allied
+CON134,Inpatient consult to PERRT,icu
+CON163,IP Consult to MCC Complementary Therapy Team,pain
+30413CON7502,Inpatient Referral to Tissue Viability,allied
+CON59,Inpatient consult to Dermatology,other
+CON165,Inpatient consult to Nutrition Team (TPN),medical
+CON27,Inpatient Consult to Symptom Control and Palliative Care,palliative
+CON150,Inpatient Consult to Integrated Discharge Service,discharge
+CON54,Inpatient consult to Respiratory Medicine,medical
+CON19,Inpatient consult to Psychology,mental_health
+CON43,Inpatient consult to Cardiology,medical
+CON50,Inpatient consult to Podiatry,allied
+CON157,Inpatient consult to Acute Medicine,medical
+CON5,Inpatient consult to Infectious Diseases,medical
+CON13,Inpatient consult to ENT,surgical
+CON132,Inpatient consult to Adult Diabetes CNS,medical
+CON52,Inpatient consult to Orthopedic Surgery,surgical
+CON55,Inpatient consult to Care of the Elderly,elderly
+CON42,Inpatient consult to Infant Feeding Team,obs_gyn
+CON158,Inpatient consult to Mental Health Liaison Team,mental_health
+CON10,Inpatient consult to Neurosurgery,neuro
+CON176,Inpatient consult to Stroke Medicine and Neuro-Rehabilitation,neuro
+CON15,Inpatient consult to Paediatrics,paeds
+CON11,Inpatient consult to Oral & Maxillofacial Surgery,surgical
+CON128,Consult order to Safeguarding team,other
+CON159,Inpatient consult to Hosptial at Night Team,other
+CON53,Inpatient consult to Psychiatry,mental_health
+CON251,Inpatient Consult to Homeless Team,other
+CON47,Inpatient consult to Oncology,haem_onc
+CON39,Inpatient consult to Urology,surgical
+CON7,Inpatient consult to Neonatology,obs_gyn
+CON68,Inpatient consult to Gastroenterology,medical
+CON57,Inpatient consult to Haematology,haem_onc
+CON32,"Inpatient Consult to Pain Team (Acute, Complex and Cancer pain services)",pain
+CON6,Inpatient consult to Intensivist,icu
+CON60,Inpatient consult to Endocrinology,medical
+CON141,Inpatient consult Respiratory Physiotherapy,allied
+CON29,Inpatient consult to Neuropsychology,neuro
+CON250,Inpatient Consult to Drug/Alcohol Team,mental_health
+CON46,Inpatient consult to Obstetrics,obs_gyn
+CON33,Inpatient consult to Vascular Access Team,surgical
+CON172,Inpatient consult to Royal London Hospital for Integrated Medicine,other
+CON129,Inpatient consult to Safeguarding - Children,other
+CON148,Inpatient consult to Oncology/Haematology - CVC Team,haem_onc
+CON4,Inpatient consult to General Surgery,surgical
+CON152,Inpatient consult to Microbiologist,other
+CON156,Inpatient consult to Adult Endocrine & Diabetes,medical
+CON166,Inpatient Consult to Learning Disability and Autism team,other
+CON58,Inpatient consult to Dentist,other
+CON22,Inpatient consult to Pastoral Care,other
+CON30,Inpatient consult to Interpreter Services,other
+CON31,Inpatient consult to Sleep Lab,other
+CON173,Inpatient consult to Neuro-psychiatry,neuro
+CON97,Inpatient consult to Play Therapy,other
+CON135,Inpatient consult to Paediatric Dietitian,allied
+CON177,Inpatient Consult to OPAT,other
+CON154,Inpatient consult to Gynaecology,obs_gyn
+CON169,Inpatient Consult to UCLH@Home,discharge
+CON144,Inpatient consult to Speech and Language Therapy,allied
+CON149,Inpatient consult to Lymphoedema Service,other
+CON44,Inpatient consult to Rheumatology,medical
+CON20,Inpatient consult to Clinical Oncology - Radiotherapy,haem_onc
+CON174,Inpatient consult to Alcohol Withdrawal CNS,other
+CON36,Inpatient consult to Anaesthesia,surgical
+CON147,Inpatient consult to Cardiac Rehabilitation,medical
+CON48,Inpatient consult to Ophthalmology,other
+CON26,Inpatient consult to Trauma Surgery,surgical
+CON40,Inpatient consult to Vascular Surgery,surgical
+CON62,Inpatient consult to Internal Medicine,medical
+CON127,Inpatient consult to Hepato-Biliary Medicine,medical
+CON72,Inpatient consult to Addiction service,other
+CON200,Consult to Infection Control Team,other
+CON90,Inpatient Consult to Children & Young People Mental Health Liaison Team (CYPPS),mental_health
+CON164,Inpatient consult to Neurorehab Unit,neuro
+CON171,Inpatient consult to Tropical Medicine,medical
+CON170,Inpatient consult to Cardiothoracic Surgery,surgical
+CON67,Inpatient consult to Clinical Pharmacology,other
+CON155,Inpatient consult to Stoma Care Nursing,other
+CON65,Inpatient consult to Social Work,other
+CON130,Inpatient consult to Breast Surgery,surgical
+CON12,Inpatient consult to Orthotist,allied
+CON56,Inpatient consult to Gynaecological Oncology,haem_onc
+CON37,Inpatient consult to Audiology,allied
+CON82,Inpatient consult to Paediatric ENT,surgical
+CON94,Inpatient consult to Paediatric Surgery,surgical
+CON142,Inpatient consult to Neuro-Physiotherapy,neuro
+CON35,Inpatient consult to Allergy,other
+CON180,Inpatient consult to Early Pregnancy Unit (EPU),obs_gyn
+CON102,General Pharmacy Consult,other
+CON153,Inpatient consult to Clinical Biochemistry,medical
+CON70,Inpatient consult to Plastic Surgery,surgical
+CON61,Inpatient consult to Immunology,other
+CON131,Inpatient consult to Diabetes Nurse Specialist - Paeds,other
+CON8,Inpatient consult to Renal Medicine,medical
+CON75,Anaesthetic Outreach - for Inpatient Use,surgical
+CON126,Inpatient consult to Midwife,obs_gyn
+CON81,Inpatient consult to Paediatric Endocrinology,medical
+CON255,Inpatient Consult to Acute Frailty Team,elderly
+CON254,Inpatient Consult to MSIS Psychology - Haematology,haem_onc
+CON151,Inpatient consult to Virology,medical
+CON79,Inpatient consult to Paediatric Dentistry,paeds
+CON162,Inpatient consult to Paediatric Bone Marrow Transplant Team,paeds
+CON181,Inpatient consult for Tracheosotomy (UCH Tower),surgical
+CON30404001,ED consult to Ambulatory Medicine,medical
+CON28,Inpatient consult to Integrative Medicine,medical
+CON160,Inpatient consult to Paediatric Oncology,haem_onc
+CON16,Inpatient consult to Perinatology,obs_gyn
+CON1,Inpatient consult to Colorectal Surgery,surgical
+CON262,Inpatient Consult to Transforming end of life care team,elderly
+CON77,Inpatient consult to Paediatric Allergy,paeds
+CON168,Inpatient consult to Acute Oncology Service,haem_onc
+CON84,Inpatient consult to Paediatric Hematology - Cancer division,haem_onc
+CON122,Inpatient consult to Paediatric Epilepsy Service,paeds
+CON74,Inpatient consult to Smoking Cessation Program,other

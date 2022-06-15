@@ -1,0 +1,145 @@
+Friendly name,epic id
+Oxygen saturation,10
+FiO2,301550
+Target SPO2,36551
+Tidal volume,301600
+Mechanical Ventilation - yes/no,315170
+Natural airway patent - yes/no,7115
+Ventilator Mode,3040102607
+Ideal Body Weight (calculated),3040102602
+Ideal Body weight (calculated),7074308
+MAP (invasive),301250
+MAP (invasive),1120100022
+MAP (non-invasive),301360
+MAP (non-invasive),1120100052
+Target MAP,36554
+RASS,3040104644
+Target RASS,36555
+Oxycodone PCA Hourly Dose,30415195
+Fentanyl PCA Hourly Dose,38267
+Morphine PCA Hourly Dose,3040104592
+Pain score -verbal at rest,3040104280
+Pain score - verbal on movement,3040104281
+Pain score - non-verbal,3040104228
+Epidural Infusion Rate,7001026
+Bromage left leg,30415249
+Bromage right leg,30415250
+Level of Block - right side,38581
+Level of Block - left side,38580
+Level of block,30415201
+Oxygen delivery device,3040109305
+GCS total,401001
+Temperature,6
+Heart rate,8
+Blood pressure,5
+Respiratory rate,9
+Oxygen therapy flow rate,250026
+ACVPU,6466
+PEEP,1120100038
+PEEP,301620
+Peak,301650
+Plateau,301660
+Contact with confirmed infection,26524
+Current temperature >37.5 or history of fever in the last 24 hours,27254
+Reported symptoms on admission,27255
+Travel in last 21 days,27256
+Known contact with disease,27257
+Countries visited in last month (1),27505
+Countries visited in last month (2),27611
+Countries visited in last month (3),27614
+Countries visited in last month (4),27615
+Countried visited in last month (5),27616
+Travel in last 14 days,37962
+Travel in last 7 days,39903
+NEWS score ,28315
+NEWS2 score,28316
+Room air or oxygen,3040109304
+LDA airway ,3040102719
+Delivered Oxygen Flow Rate,250026
+Pacemaker,2281
+Reposition,6594
+Connected to external box,25286
+Type of Cardiac Monitoring,25915
+CNS failure,36062
+Complex burn,36063
+VAC Dressing/Complex Dressing,36064
+Pre-op optimisation,37588
+Requiring observation,37655
+Cooling Device,38822
+Treatment mode,30415012
+Rate setting,30415013
+Pacemaker Type,3040100260
+Potential for respiratory deterioration,3042602071
+Suction performed or chest physio?,3042602072
+Continuous EEG,3042615822
+Eye Opening,160301
+Best Motor Response,160302
+F&P,22195
+Temp (Tube),22196
+Pacemaker,2281
+Connected to external box,25286
+Type of Cardiac Monitoring,25915
+Arterial Line BP,301260
+L Pupil Reaction,301900
+R Pupil Reaction,301920
+Cough,302590
+Sputum Amount,302600
+RLQ Bowel Sounds,302950
+Pacemaker Type,3040100260
+Temp (in Celsius),3040100959
+TOTAL HOURLY Dose (mg) Morphine (1 mg/mL),3040104592
+Overall CAM-ICU,3040104650
+Treatment mode,30415012
+New filter,30415016
+Citrate dose,30415033
+pH,30415039
+Base excess,30415040
+TOTAL HOURLY Dose (mg) Oxycodone (2 mg/mL),30415195
+Potential for respiratory deterioration,3042602071
+Suction performed or chest physio?,3042602072
+Continuous EEG,3042615822
+CNS failure,36062
+Complex burn,36063
+VAC Dressing/Complex Dressing,36064
+Pre-op optimisation,37588
+Requiring observation,37655
+TOTAL HOURLY Dose (mcg) Fentanyl (2000mcg/100 mL),38267
+Cooling Device,38822
+Type of anticoagulation,38848
+Haemofiltration fluid,38849
+Heparin syringe rate (ml/hr),38861
+Epoprostenol Syringe Rate (ml/hr),38862
+Best Verbal Response,401000
+Head Positioning,40434
+Date of symptom onset,40445
+Blood pump speed,40457
+Prismasol (Dialysate) Rate,40458
+Prismasol (Replacement) Rate,40459
+Prismasol (Pre-dilution) Rate,40460
+Hemosol (Dialysate) Rate,40461
+Hemosol (Replacement) Rate,40462
+Hemosol (Pre-dilution) Rate,40463
+Secretion Amount,451120
+Reposition,6594
+GCS assessment required?,6859
+Temp src,7
+Volume (mL),7001026
+Venous Chamber - Clots,8100280
+Arterial Chamber Clots,8100300
+Noradrenaline volume (ml),3040102622
+Adrenaline volume (ml),331213
+Metaraminol volume (ml),12946
+Dobutamine volume (ml),331208
+Levosimendan volume (ml),25239
+Enoximone volume (ml),12536
+Milrinone volume (ml),331253
+Target Fluid Balance,36553
+Target PaO2,36556
+Target PaCO2,36557
+Target Hb,36558
+Target pH,36559
+all areas of patient's skin intact?,3042300291
+all pressure areas observed?,6600
+Type of wound?,3040102807
+ICU ready discharge,41222
+Vasopressin Volume,7080040

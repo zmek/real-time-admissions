@@ -1,0 +1,17 @@
+R version 4.0.0 (2020-04-24)
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+Running under: Windows Server x64 (build 14393)
+
+Matrix products: default
+
+locale:
+[1] LC_COLLATE=English_United Kingdom.1252  LC_CTYPE=English_United Kingdom.1252    LC_MONETARY=English_United Kingdom.1252
+[4] LC_NUMERIC=C                            LC_TIME=English_United Kingdom.1252    
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+loaded via a namespace (and not attached):
+ [1] fansi_0.4.1      crayon_1.3.4     assertthat_0.2.1 lifecycle_0.2.0  magrittr_2.0.1   pillar_1.4.7     rlang_0.4.9     
+ [8] cli_2.2.0        rstudioapi_0.13  fs_1.5.0         vctrs_0.3.5      ellipsis_0.3.1   tools_4.0.0      glue_1.4.2      
+[15] purrr_0.3.4      compiler_4.0.0   pkgconfig_2.0.3  usethis_2.0.0    tibble_3.0.4    

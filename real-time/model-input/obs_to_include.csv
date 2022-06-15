@@ -1,0 +1,24 @@
+obs_name,Friendly name,epic id,OMOP ID
+Oxygensaturation,Oxygen saturation,10,3013502
+FiO2,FiO2,301550,3020716
+Oxygendeliverydevice,Oxygen delivery device,3040109305,2000000034
+GCStotal,GCS total,401001,3007194
+Heartrate,Heart rate,8,4239408
+Respiratoryrate,Respiratory rate,9,4313591
+Oxygentherapyflowrate,Oxygen therapy flow rate,250026,4141684
+ACVPU,ACVPU,6466,2000000007
+PEEP,PEEP,1120100038,4353713
+PEEP,PEEP,301620,4353713
+Contactwithconfirmedinfection,Contact with confirmed infection,26524,2000000042
+Travelinlast21days,Travel in last 21 days,27256,2000000045
+Travelinlast14days,Travel in last 14 days,37962,2000000052
+NEWSscore,NEWS score,28315,44808684
+NEWS2score,NEWS2 score,28316,37208353
+Roomairoroxygen,Room air or oxygen,3040109304,40771869
+Oxygentherapyflowrate,Delivered Oxygen Flow Rate,250026,NA
+Reposition,Reposition,6594,NA
+EyeOpening,Eye Opening,160301,NA
+BestMotorResponse,Best Motor Response,160302,NA
+LPupilReaction,L Pupil Reaction,301900,NA
+RPupilReaction,R Pupil Reaction,301920,NA
+BestVerbalResponse,Best Verbal Response,401000,NA

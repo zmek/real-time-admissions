@@ -1,0 +1,2 @@
+0 5,11,15,21 * * * /ed-crowding/run.sh > /proc/1/fd/1 2>/proc/1/fd/2
+

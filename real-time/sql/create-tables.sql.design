@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Devart (www.devart.com), SQL document design file -->
+<!-- Modifying this generated file will probably render it invalid -->
+<Document>
+  <Properties>
+    <Type>SQL Document Design</Type>
+    <DatabaseProvider>77a9b459-6f15-4675-8e18-cdd88f58e376</DatabaseProvider>
+    <ProviderVersion>2.2.207.0</ProviderVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+  </Properties>
+  <Connection Name="uds.UCLVLDDDTAEPS02">
+    <Category>00000000-0000-0000-0000-000000000000</Category>
+    <ConnectionString>User Id=zelking1;Host=UCLVLDDDTAEPS02;Port=5432;Database=uds;Unicode=True;Connection Timeout=15;Default Command Timeout=30;Integrated Security=False</ConnectionString>
+    <Database>uds</Database>
+  </Connection>
+  <Views ShowAdditionalViews="False" IsLayoutActiveAttribute="True" MainViewAttribute="Code" MainViewScale="50">
+    <View Name="Code" Active="True" Visible="True">
+      <Data />
+    </View>
+    <View Name="Data" Visible="True" />
+  </Views>
+</Document>

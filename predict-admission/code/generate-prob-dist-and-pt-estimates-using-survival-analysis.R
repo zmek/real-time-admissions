@@ -66,7 +66,8 @@ get_prob_dist = function(time_pts, in_ED_all, preds_all_ts, base_prob, coefs, po
   for (i in (1:length(time_pts))) {
     
     print(i)
-    
+
+# STEP 1 of pipeline ------------------------------------------------------
     # get patients in ED at this time and set characteristics of time point
     
     in_ED = in_ED_all[time_pt == time_pts[i]]
@@ -136,6 +137,8 @@ get_prob_dist = function(time_pts, in_ED_all, preds_all_ts, base_prob, coefs, po
       
     } else {
       
+      # STEP 2 of pipeline ------------------------------------------------------
+      
       # since there are patients in ED
       # we first derive a probability distribution for each possible number of admission
       
@@ -155,8 +158,9 @@ get_prob_dist = function(time_pts, in_ED_all, preds_all_ts, base_prob, coefs, po
       # save the true number of admissions of these patients
       df[, truth := case_when(adm %in% c("direct_adm", "indirect_adm") ~ 1,
                               TRUE ~ 0)]
+      # STEP 3 of pipeline ------------------------------------------------------
       
-      # save the distribution
+      # save the distribution where no time window is applied
       distr = data.table(bind_cols(time_of_report = time_pts[i],
                                    num_adm_pred = num_adm_,
                                    probs = probs_in_ED, cdf = cumsum(probs_in_ED),
@@ -183,6 +187,9 @@ get_prob_dist = function(time_pts, in_ED_all, preds_all_ts, base_prob, coefs, po
       
       
       for (time_window_ in time_window_array_) {
+        
+        # STEP 4 of pipeline ------------------------------------------------------
+        # get patient probability of still being in the ED at the end of the time window
         
         # if at end of time points, skip time window calcs
         
@@ -221,7 +228,7 @@ get_prob_dist = function(time_pts, in_ED_all, preds_all_ts, base_prob, coefs, po
             
             
             
-            # save the probability 
+            # save the patient probability of being admitted within time window
             tta_prob_ = bind_rows(tta_prob_, data.table(csn = df$csn[h], 
                                                         # # for debugging:
                                                         # first_ED_admission = base_prob$surv_$first_ED_admission[j],
@@ -252,7 +259,9 @@ get_prob_dist = function(time_pts, in_ED_all, preds_all_ts, base_prob, coefs, po
                                      difftime(left_ED, time_pts[i], units = "hours") <= time_window_ ~ 1,
                                    TRUE ~ 0)]
           
-          # save the distribution 
+          # STEP 5 of pipeline ------------------------------------------------------
+          
+          # save the distribution where a time window has been applied
           distr = data.table(bind_cols(time_of_report = time_pts[i],
                                        num_adm_pred = num_adm_,
                                        probs = probs_in_ED_adj_for_time_window, cdf = cumsum(probs_in_ED_adj_for_time_window),
@@ -277,7 +286,7 @@ get_prob_dist = function(time_pts, in_ED_all, preds_all_ts, base_prob, coefs, po
           
           
           # 
-          # -----------
+          # STEP 6 of pipeline ------------------------------------------------------
           # now create distributions including patients not yet arrived
           
           # generate probs of each number of not-yet-arrived admissions
@@ -286,6 +295,9 @@ get_prob_dist = function(time_pts, in_ED_all, preds_all_ts, base_prob, coefs, po
                                         lambda = poisson_not_yet_arrived[time_window == time_window_ &
                                                                            time_pt == time_pts[i], 
                                                                          poisson_mean])
+          
+          # STEP 7 of pipeline ------------------------------------------------------
+          # combine the two distributions for patients in ED and those not yet arrived (nya)
           
           # the random variable (number of admissions) is a combination of 
           # admissions from those in ED (indexed by k), and those not yet arrived (indexed by j)
@@ -337,12 +349,7 @@ get_prob_dist = function(time_pts, in_ED_all, preds_all_ts, base_prob, coefs, po
           
           distr_coll = bind_rows(distr_coll, distr)
           pt_estimates_coll = bind_rows(pt_estimates_coll, pt_estimates_coll_)
-          
-          
-          
-          
-          
-          
+
         }
       }
     }

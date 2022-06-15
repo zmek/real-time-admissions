@@ -22,8 +22,7 @@ plus other files saved from the SQL extracts
 - patient_class - latest patient class
 - all_patient_class - patient class audit table
 
-
-Note that department names in EMAP relating to ED are the following
+Note that department names in EMAP Star relating to ED are the following
 - ED
 - "1020100166" and "1020100170" - these are both SDEC
 - "UCHT00CDU" - this is CDU
@@ -46,17 +45,15 @@ create-data.tables.R
 Does further processing on the datasets created by get-ED-data-from-Star.R to (a) identify exits from ED to various locations of interest and (b) calculate admission class which will be the final label for ML and (c) create a simplified edge list (ie rows with from and to nodes) that will be used for network maps
 
 input
-- ED_bed_moves_raw
-- ED_csn_summ_raw
+- ED_csn_summ_raw - a summary of all hospital visits (one row per visit)
+- ED_bed_moves_raw - a summary of all location moves (one row per move, so multiple rows per visit)
 
 output (all as data tables)
 - moves - cleaned location data with one row per move
 - edgedf
 - summ - updated version of ED_csn_summ_raw with admission class
 
-
 Once a new set of output is ready, predict-admissions/code/config.R needs to be updated with the new summ_file_date so that scripts pick up the correct output
-
 
 ### 3. prepare-ED-data-for-ML.R
 
@@ -73,9 +70,3 @@ Note that utils.R and config.R are loaded from the predict-admissions folder.
 - utils.R creates functions that are shared between scripts. 
 - config.R sets parameters like dates for training, validation and test sets, and dates for which files to use. 
 
-## Python files
-
-### create-viz-from-edge-list.py
-
-input
-- edgelist_stats

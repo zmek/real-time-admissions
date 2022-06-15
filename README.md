@@ -26,3 +26,12 @@ Each folder is structured as follows (but note that data-raw and data-output are
 * data-output - contains outpout from ML models, feature lists (ignored by git so not visible outside the UCH environment)
 * model-output - contains results like predicted probability distributions and evalutaion results
 * media - output as charts
+
+For the reader interested in the machine learning aspects of this project, the most important files to look at are 
+* predict-admission/README.md - this will introduce you to the steps involved in the analysis and how we approached the ML
+* prediction-admission/generate-timeslices.R - shows the approach to creating timeslices, as reported in our paper 
+* the various ML scripts in predict-admission folder - run-ML.R (which runs XGBoost), run-RF.R (Random Forest) and run-LR.R (Logistic Regression)
+
+For the reader interested in the aggregration of individual level probabilities into predictions over numbers of beds, and the seven-step pipeline reported in the paper, the most useful files to look at are
+* predict-admission/generate-prob-dist-and-pt-estimates-using-survival-analysis.R - this shows the steps involved in implementing the seven-step pipeline (see commented function get-prob-dist.R)
+* some of the functions in real-time/app/utils.R, particularly those mentioned in predict-admission/README.md

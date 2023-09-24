@@ -12,7 +12,7 @@ The project has a number of elements
 4. Run a ML pipeline in real-time to retrive patients current in ED, make predictions about individual probability of admission, aggregate these into predictions for number of beds needed, save predictions and email them to bed planners
 5. Prepare figures for publication in an academic manuscript
 
-See the current version of the manuscript in pre-print form at: https://www.medrxiv.org/content/10.1101/2022.03.07.22271999v1. The authors are  Zella King, Joseph Farrington,  Martin Utley, Enoch Kung, Samer Elkhodair,  Steve Harris, Richard Sekula, Jonathan Gillham, Kezhi Li,  and Sonya Crowe. All the code in this repo was written and run by Zella King.
+See the current version of the manuscript in pre-print form at: https://www.nature.com/articles/s41746-022-00649-y. The authors are  Zella King, Joseph Farrington,  Martin Utley, Enoch Kung, Samer Elkhodair,  Steve Harris, Richard Sekula, Jonathan Gillham, Kezhi Li,  and Sonya Crowe. All the code in this repo was written and run by Zella King.
 
 ## About the repo
 
